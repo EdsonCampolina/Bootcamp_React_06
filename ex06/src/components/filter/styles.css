@@ -1,0 +1,47 @@
+.filter-container {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: 130px;
+	display: flex;
+	align-items: center;
+}
+
+.filter-store-select__control {
+	height: 50px;
+	width: 270px;
+}
+
+.filter-store-select__indicator-separator {
+	display: none !important;
+}
+
+@media (min-width: 320px) {
+	.app-container {
+		padding: 0 10px;
+	}
+
+	.filter-container {
+		padding: 15px;
+	}
+}
+
+@media (min-width: 576px) {
+	.app-container {
+		padding: 0 40px;
+	}
+
+	.filter-store {
+		padding-left: 40px;
+	}
+}
+
+@media (min-width: 768px) {
+	.app-container {
+		padding: 0 40px;
+	}
+
+	.filter-store {
+		width: 270px;
+		padding-left: 40px;
+	}
+}

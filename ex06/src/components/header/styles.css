@@ -1,0 +1,8 @@
+.main-header-container {
+	padding-left: 44px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+}
